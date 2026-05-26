@@ -13,7 +13,8 @@
 
 ## Cara Instalasi
 1. Clone repositori ini.
-2. Jalankan `composer install`.
-3. Buat file `database.sqlite` di folder `database/`.
-4. Jalankan `php artisan migrate`.
-5. Jalankan `php artisan serve`.
+2. Jalankan `cp .env.example .env`
+3. Jalankan `composer install`.
+4. Buat file `database.sqlite` di folder ./database/ jalankan: `touch database/database.sqlite`.
+5. Jalankan `php artisan migrate`.
+6. Jalankan `php artisan serve`.
